@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:rgb(27, 158, 190);
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: greenyellow;
+  color:rgb(104, 27, 27);
+}
+
+.topnav a.active {
+  background-color:rgb(27, 158, 190);
+  color:black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.field1{
+    padding-left: 20%;
+}
+.h13{
+    padding-right: 5%;
+    color: aqua;
+}
+</style>
+</head>
+<body class="body4">
+  
+<div class="topnav" id="myTopnav">
+  <a><img src="rightmo_logo_203x49.png resised.png" alt="logo"></a>
+  <a href="#home" class="active">Trending polls</a>
+  <a href="#news">Latest polls</a>
+  <a href="#contact">Most voted</a>
+  <a href="#about">Login</a>
+  <a href="#about">Register</a>
+  <a href="categories.html">Categories </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+    
+<body class="body7">
+
+  <div>
+<fieldset class="field18">
+
+Have a question you want to ask everyone?
+
+<div class="search-container">
+  <form action="/action_page.php">
+    <input type="text" placeholder="e.g How you commute to work?.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+</div>
+</div>
+<div>
+  <br>
+  <div>
+  
+
+</div>
+<br>
+
+</fieldset>
+<div>
+</div>
+
+
+<br>
+<fieldset id="field3">
+Who Will win men's T20 World cup?
+<hr> 
+<div>
+<img src="C:\Users\prabo\OneDrive\Desktop\My web projects\rightmo project\world cup logo (1).jpg" alt="logo2">
+<img src="C:\Users\prabo\OneDrive\Desktop\My web projects\rightmo project\sri lankan cricket.jpg" alt="logo8">
+</div>
+<fieldset class="field16">
+    pakistan
+</fieldset>
+<br>
+<fieldset class="field16">
+    Australia
+</fieldset>
+<br>
+<fieldset class="field16">
+    India
+</fieldset>
+<br>
+<fieldset class="field16">
+    England
+</fieldset>
+<br>
+<hr>
+<div>
+4.5k votes
+<fieldset>
+    Australia will win this
+</fieldset>
+   <h3 id="hip">Reply </h3>
+   <hr>
+   <form action="/html/tags/html_form_tag_action.cfm" method="post">
+    <div>
+    <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+    comment 
+    </textarea>
+    </div>
+    <input type="submit" value="Submit">
+    </form>
+</div>
+</fieldset>
+
+<div id=" div9">
+    <fieldset>
+        Wich season you like the most?
+        <hr>
+        <fieldset class="field16">
+            spring
+        </fieldset>
+        <br>
+        <fieldset class="field16">
+            summer
+        </fieldset>
+        <br>
+        <fieldset class="field16">
+            Autumn
+        </fieldset>
+        <br>
+        <fieldset class="field16">
+            Winter
+        </fieldset>
+        <br class="line2">
+        <hr/>
+        <div class="new1">
+        468 votes share
+        <button class="new2">
+          Comment</button>
+
+    
+</div>
+    </fieldset>
+    <br>
+    <fieldset>
+    <fieldset>
+        Would you rather live for the rest of the life in Arctic or in the sahara desert?
+        <hr>
+        <iframe width="1000" height="315" src="https://www.youtube.com/embed/2HJfVEq5bug?si=rg7T4slXuD7G5jqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+        <fieldset class="field16">
+            The Arctic
+        </fieldset>
+        <br>
+        <fieldset class="field16">
+            The sahara Desart
+        </fieldset>
+        <br>
+        12k votes 
+        share
+        <button class="new3">
+          Comment</button>
+    
+    </fieldset>
+
+    </fieldset>
+
+</div>
+
+</body>
+</html>

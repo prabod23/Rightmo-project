@@ -1,0 +1,90 @@
+
+button{
+margin-right: 30%;
+}
+.f7{
+    margin-right: auto;
+}
+.div9{
+    margin-bottom: 20%;
+}
+.h5{
+ text-align:center
+
+}
+
+.field2{
+    padding-left: 20%;
+    color: rgb(28, 31, 30);
+}
+.f10{
+    color: aqua;
+    fill: aqua;
+    padding-left: 40%;
+}
+.field16{
+border-color:#1ABC9C ;
+    background-color:rgb(198, 216, 170);
+cursor: pointer;
+
+}
+.field18{
+    border-color: #1ABC9C;
+    width: 40%;
+    background-color: #F3FCFA;
+    padding-right: 20%;
+}
+.field19{
+    border-color:#CACDCC;
+    width: 70%;
+    
+}
+.field20{
+    width: 0%;
+    
+margin-left: 80%;
+margin-bottom: 0%;
+
+text-align: center;
+}
+.line2{
+    color: #CACDCC;
+}
+.new2{
+    color:#F3FCFA ;
+    background-color:#1ABC9C ;
+    border-color:greenyellow;
+}
+.new3{
+    color: white;
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+.body4{
+color: black;
+   background-color: rgb(178, 161, 190);
+}
+.myTopnav{
+    background-color: #1ABC9C;
+}
+    .logo8{
+        padding-left: 10%;
+    }
+    .button7{
+        margin-left: 30%;
+        background-color: #1ABC9C;
+        border-color:#F3FCFA ;
+        border-radius: 10%;
+    }
+    .f44{
+        width: 20%;
+        align-items: center;
+        margin-left: 65%;
+        border-color:#CACDCC;
+    }
+    .field16 :hover{
+    color: black;
+    }
+    .comments{
+        width: 10%;
+    }
